@@ -1,4 +1,6 @@
-#include <stdio.h>
+#include<iostream>
+#include<string>
+using namespace std;
 int f1(int x)
 {
 x++;
@@ -19,5 +21,8 @@ return x + y;
 main()
 {
 int x = 4, y = 7;
-printf("%d , %d , %d", x, y, f3(x, y));
-}
+cout<<"El primer valor es :\t"<<x<<endl;
+cout<<"El segundo valor es:\t"<<y<<endl;
+cout<<"la suma de ambos son:\t"<<f3<<endl<<endl;
+    cin.ignore();}
+
